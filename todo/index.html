@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Crud Operation</h1>
+      <div class="input-container">
+        <label for="name-input"></label>
+        <input
+          type="text"
+          class="name"
+          id="name-input"
+          placeholder="Enter name"
+        />
+        <!-- <label for="email"></label> -->
+        <input
+          type="email"
+          class="email"
+          id="email-input"
+          placeholder="Enter Email"
+        />
+        <button id="add-btn" class="add-btn btn">ADD</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="update-name-input" />
+        <input type="text" id="update-email-input" />
+        <button id="update-btn" class="update-btn btn">update</button>
+        <button id="cancel-btn" class="cancel-btn btn">cancel</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 2em  minmax(0px,1fr) minmax(0px,1fr);
+    
+}
+.left{
+    grid-column: 2/3;
+}
+#msg{
+    color: red;
+}

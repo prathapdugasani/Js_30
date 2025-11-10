@@ -1,0 +1,92 @@
+:root {
+  --first-color: #93e4c1;
+  --second-color: #3baea0;
+  --third-color: #118a7e;
+  --fourth-color: #1f6f78;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #93e4c168;
+  
+}
+.container {
+  background-color: #93e4c1;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 80vh;
+  min-width: 600px;
+  border: 2px solid #1f6f78;
+  border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 2em;
+}
+.input-container {
+  margin-bottom: 5rem;
+}
+input {
+  padding: 0.5em;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid #118a7e;
+}
+input:focus{
+  border: 2px solid #118a7e;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);	
+}
+.btn{
+	padding: .5em .75em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.add-btn{
+	background: #1f6f78;
+	color: #ffff;
+}
+.add-btn:hover{
+    background: #1f6f78e1;
+}
+.update-btn{
+     background-color: #1f6f78e1;
+	 color: #ddd;
+}
+.cancel-btn{
+   background-color: #f44336;
+   color: #ddd;
+}
+.edit-btn{
+  background-color: #ffc107;
+  color: #ddd;
+}
+
+.delete-btn{
+  background-color: #dc3545;
+  margin-left:10px;
+  color: #ddd;
+}
+#update-container{
+	display: none;
+	margin-top: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
